@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minimal Login Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+   body{ 
+      background-image: url("v991-n-26.jpg");
+      background-size:cover; /* Ensure the image covers the entire viewport */
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Prevent tiling */
+      height: 100vh; /* Set height to fill the viewport */
+      margin: 0; /* Remove default margin */}
+  </style>
+  <!-- <bg style="background-image: url('v991-n-26.jpg');"> -->
+</head>
+<body>
+  <div class="container">
+    <div class="login-box">
+      <h1>Login</h1>
+      <div class="input-group">
+        <input type="email" id="email" placeholder="Email">
+      </div>
+      <div class="input-group">
+        <input type="password" id="password" placeholder="Password">
+      </div>
+      <button class="login-btn" onclick="handleLogin()">Log in</button>
+      <p class="signup-text">
+        Don't have an account? <a href="#">Sign up</a>
+      </p>
+      <p class="forgot-text">
+        <a href="#">Forgot your password?</a>
+      </p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
